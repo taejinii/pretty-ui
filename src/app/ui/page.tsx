@@ -13,6 +13,7 @@ export default function UI() {
       document.body.style.overflowY = "auto";
     }
   }, [isOpen]);
+
   return (
     <div className="h-screen flex justify-center items-center">
       <button
@@ -22,7 +23,9 @@ export default function UI() {
         Open
       </button>
       <AnimatePresence>
-        {isOpen && <BottomSheet onClose={() => setIsOpen(false)} />}
+        {isOpen && (
+          <BottomSheet open={isOpen} onClose={() => setIsOpen(false)} />
+        )}
       </AnimatePresence>
     </div>
   );
