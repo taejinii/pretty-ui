@@ -1,6 +1,6 @@
 "use client";
 
-import BottomSheet from "@/components/bottom-sheet/bottom-sheet";
+import BottomSheet from "@/app/bottom-sheet/_component/bottom-sheet/bottom-sheet";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 
