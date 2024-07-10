@@ -1,7 +1,13 @@
 {
-  "name": "my-ui",
+  "name": "baebae",
   "version": "0.1.0",
-  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

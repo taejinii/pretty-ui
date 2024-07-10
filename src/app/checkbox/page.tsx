@@ -1,4 +1,4 @@
-import Checkbox from "@/components/checkbox";
+import Checkbox from "@/components/Checkbox/checkbox";
 
 function Page() {
   return <Checkbox />;
