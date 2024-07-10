@@ -1,7 +1,7 @@
 import * as CheckboxPrimitive from "@radix-ui/react-checkbox";
 import { CheckIcon } from "@radix-ui/react-icons";
 
-const Checkbox = () => {
+export const Checkbox = () => {
   return (
     <div className="flex gap-1 items-center">
       <CheckboxPrimitive.Root
@@ -18,4 +18,3 @@ const Checkbox = () => {
     </div>
   );
 };
-export default Checkbox;
