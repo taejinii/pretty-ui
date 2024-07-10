@@ -2,6 +2,11 @@
   "name": "baebae",
   "version": "0.1.1",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taejinii/my-ui",
+    "directory": "./my-ui"
+  },
   "exports": {
     ".": {
       "import": "./index.js",
@@ -20,6 +25,7 @@
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.1.1",
     "@radix-ui/react-icons": "^1.3.0",
+    "baebae": "^0.1.1",
     "framer-motion": "^11.2.6",
     "next": "14.2.3",
     "prettier": "^3.2.5",
@@ -47,8 +53,5 @@
     "storybook": "^8.1.5",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  },
-  "resolutions": {
-    "jackspeak": "2.1.1"
   }
 }
