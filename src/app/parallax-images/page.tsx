@@ -1,4 +1,17 @@
+"use client";
+
+import { Button } from "@ive-design-system/core";
+
 function Page() {
-  return <div>parallax-image with animation</div>;
+  return (
+    <>
+      <Button
+        className="bg-red-200 w-20 rounded-md"
+        onClick={() => alert("test")}
+      >
+        IDS
+      </Button>
+    </>
+  );
 }
 export default Page;
